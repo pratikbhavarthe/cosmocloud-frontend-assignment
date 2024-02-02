@@ -1,6 +1,8 @@
 import { memo, useCallback, useContext } from 'react';
 import { Handle, NodeProps, Position, useReactFlow } from 'reactflow';
 import { NodeContext, NodeInterface } from '../context/NodeContext';
+import "./styles.css"
+
 
 const CustomNode: React.FC<NodeProps> = memo((props) => {
   const { data } = props
