@@ -8,7 +8,7 @@ import ReactFlow, {
   useReactFlow,
 } from "reactflow";
 
-
+import "reactflow/dist/style.css"
 import CustomNode from "./Node";
 import { NodeContext, NodeInterface } from "../context/NodeContext";
 
