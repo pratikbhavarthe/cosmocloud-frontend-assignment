@@ -1,0 +1,29 @@
+.flowchart-container {
+    height: 100%;
+    width: 100%
+}
+
+.node-container {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 1rem 0.3rem;
+    text-align: center;
+}
+
+.node-btn-container {
+    margin: 0.5rem 0 0 0;
+}
+
+.node-btn {
+    border: none;
+    margin: 0.2rem;
+    padding: 4px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.node-btn:hover {
+    background-color: #303030;
+    color: white;
+}
